@@ -7,27 +7,27 @@
 	
 	选择pkg文件进行安装
 	
-	![](./img/totalterminal1.jpg)
+	![](./img/TotalTerminal1.jpg)
 	
 	点击继续
 	
-	![](./img/totalterminal2.jpg)
+	![](./img/TotalTerminal2.jpg)
 	
 	点击安装
 	
-	![](./img/totalterminal3.jpg)
+	![](./img/TotalTerminal3.jpg)
 	
 	输入密码
 	
-	![](./img/totalterminal4.jpg)
+	![](./img/TotalTerminal4.jpg)
 	
 	安装完成
 	
-	![](./img/totalterminal5.jpg)
+	![](./img/TotalTerminal5.jpg)
 	
 	设置自动更新
 	
-	![](./img/totalterminal6.jpg)
+	![](./img/TotalTerminal6.jpg)
 
 ## 配置
 
