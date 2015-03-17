@@ -1,6 +1,6 @@
 # oh-my-zsh安装及配置
 
-## github地址
+## [github地址](https://github.com/robbyrussell/oh-my-zsh)
 
 	https://github.com/robbyrussell/oh-my-zsh
 	

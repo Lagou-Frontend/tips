@@ -4,6 +4,8 @@
 
 ## [github官网]( https://github.com/creationix/nvm)
 
+	https://github.com/creationix/nvm
+
 ## 安装及配置
 
 * 运行
