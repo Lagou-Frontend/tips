@@ -16,3 +16,5 @@
 * 安装node  `nvm install v0.10`
 * 测试node是否安装成功 `node -v`
 * 设置nvm默认node版本 `nvm alias default stable`
+
+### [回导航页](../README.md)

@@ -14,3 +14,5 @@
 * 可以增加 sublime插件
 	* `stt` 可通过sublime打开当前目录
 	* `st -filename.filetype` 可通过sublime编辑当前文件 	
+	
+### [回导航页](../README.md)
