@@ -14,7 +14,9 @@
 > 安装以上环境工具后进行IDT的安装
 
 `npm install idt@1.1.16 -g`需要注意版本号,只能安装1.1.16版本. 高版本会有兼容问题
+
 `idt install` 安装依赖
+
 `idt install` 再次运行将提示 `you have installed `grunt` & `edp`.` 验证是否安装完成
 
 > 如安装出现问题 使用 'nrm test' 'nrm test'来选取速度更快的源 切换源后再次安装即可
