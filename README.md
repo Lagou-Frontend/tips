@@ -23,15 +23,15 @@
 
 ### 读书笔记
 
-#### JavaScript
+* JavaScript
 
-#### NodeJS
+* NodeJS
 
-* [了不起的NodeJS(mcdong)](./readingNotes/the-great-nodejs.md)
+	* [了不起的NodeJS(mcdong)](./readingNotes/the-great-nodejs.md)
 
-#### HTTP
+* HTTP
 
-#### HTML & CSS
+* HTML & CSS
 
 ### 工具合集
 
