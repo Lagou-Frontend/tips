@@ -17,8 +17,7 @@
 
 `idt install` 安装依赖
 
-`idt install` 再次运行将提示 `you have installed `grunt` & 
-`edp`.` 验证是否安装完成
+`idt install` 再次运行将提示 `you have installed `grunt` & `edp`.` 验证是否安装完成
 
 > 如安装出现问题 使用 ```nrm test``` ```nrm test```来选取速度更快的源 切换源后再次安装即可
 
