@@ -22,6 +22,18 @@
 
 > 如安装出现问题 使用 ```nrm test``` ```nrm test```来选取速度更快的源 切换源后再次安装即可
 
+### 读书笔记
+
+#### JavaScript
+
+#### NodeJS
+
+* [了不起的NodeJS(mcdong)](./readingNotes/the-great-nodejs.md)
+
+#### HTTP
+
+#### HTML & CSS
+
 ### 工具合集
 
 #### MAC
