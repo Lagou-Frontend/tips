@@ -133,9 +133,7 @@ eclipse商店安装即可
 参考：[http://openwares.net/linux/mac_tomcat_port_80.html](http://openwares.net/linux/mac_tomcat_port_80.html)
 
 
-添加`rdr on lo0 inet proto tcp from any to 127.0.0.1 port 80 -> 127.0.0.1 port 8080` 到文件`/etc/pf.conf`，
-
-最终如下：
+添加`rdr on lo0 inet proto tcp from any to 127.0.0.1 port 80 -> 127.0.0.1 port 8080` 到文件`/etc/pf.conf`，最终如下：
 
     scrub-anchor "com.apple/*"
     nat-anchor "com.apple/*"
