@@ -10,6 +10,7 @@
 * [nvm & node](./ToolsAndSetting/nvm.md)
 * [nrm](./ToolsAndSetting/nrm.md)
 * [sublime text](./ToolsAndSetting/st.md)
+* [eclipse](./TollsAndSetting/macEclipseSetup.md)
 
 ### IDT安装
 > 安装以上环境工具后进行IDT的安装
