@@ -145,4 +145,4 @@ eclipse商店安装即可
     anchor "com.apple/*"
     load anchor "com.apple" from "/etc/pf.anchors/com.apple"
 
-pf默认非自启动，所以需手动启动，执行命令`pfctl -ef /etc/pf.conf`。
+pf默认非自启动，所以需手动启动，执行命令`pfctl -ef /etc/pf.conf`。可能需要管理员权限。
