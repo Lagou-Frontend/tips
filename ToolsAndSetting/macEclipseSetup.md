@@ -1,4 +1,4 @@
-#Mac下安装配置eclipse
+#Mac下安装配置、使用eclipse
 
 ##eclipse javaEE最新版
 
