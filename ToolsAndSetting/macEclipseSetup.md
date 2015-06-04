@@ -10,6 +10,16 @@
 ##安装tomcat插件
 参考：[http://www.cnblogs.com/bukudekong/archive/2013/10/03/3350418.html](http://www.cnblogs.com/bukudekong/archive/2013/10/03/3350418.html)
 
+###配置tomcat
+
+设置》tomcat》
+
+1.选择version选择7.x
+
+2.设置tomcat home
+
+3.context 选择server.xml
+
 ##maven
 
 ###下载安装
@@ -146,3 +156,17 @@ eclipse商店安装即可
     load anchor "com.apple" from "/etc/pf.anchors/com.apple"
 
 pf默认非自启动，所以需手动启动，执行命令`pfctl -ef /etc/pf.conf`。可能需要管理员权限。
+
+##启动项目
+
+1.import》选择exsiting maven project
+
+2.右键单击项目目录》Run As》Maven Install，等待提示build success。
+
+3.点击启动tomcat。
+
+##更新代码
+
+1.后台java代码有更新。右键单击项目目录》refresh。应该就可以了。
+
+2.前端代码更新。无需操作什么。
