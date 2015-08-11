@@ -15,6 +15,6 @@
 * 在 `~/.zshrc` 下 添加 `source ~/.nvm/nvm.sh`
 * 安装node  `nvm install v0.10`
 * 测试node是否安装成功 `node -v`
-* 设置nvm默认node版本 `nvm alias default stable`
+* 设置nvm默认node版本 `nvm alias default 0.10`  `nvm alias stable default`
 
 ### [回导航页](../README.md)
