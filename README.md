@@ -24,6 +24,14 @@
 
 > 如安装出现问题 使用 ```nrm test``` ```nrm test```来选取速度更快的源 切换源后再次安装即可
 
+> 新安装的idt会自动install最新版本的edp，需要手动更新到低版本，如下：
+edp@1.0.1 /usr/local/lib/node_modules/edp
+Builtin Commands:
+  edp-config (1.0.2)
+  edp-core (1.0.28)
+  edp-build (1.0.14)
+
+
 ### 读书笔记
 
 * JavaScript
