@@ -5,6 +5,7 @@
 ## 列表导航
 
 ### 环境/开发工具类
+* [Xcode] app store (先装)
 * [TotalTerminal](./ToolsAndSetting/TotalTerminal.md)
 * [oh-my-zsh](./ToolsAndSetting/oh-my-zsh.md)
 * [nvm & node](./ToolsAndSetting/nvm.md)
