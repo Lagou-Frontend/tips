@@ -36,26 +36,4 @@
 
 >   edp-build (1.0.14)
 
-
-
-### 读书笔记
-
-* JavaScript
-
-* NodeJS
-
-	* [了不起的NodeJS(mcdong)](./readingNotes/the-great-nodejs.md)
-
-* HTTP
-
-* HTML & CSS
-
-### 工具合集
-
-#### MAC
-
-* [百度脑图](http://naotu.baidu.com)
-
-持续更新中 by <mcdong@lagou.com>
-
 [![拉勾网](./img/logo.png "lagou.com")](http://lagou.com)
