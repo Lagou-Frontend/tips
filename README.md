@@ -18,7 +18,7 @@
 * [jQuery](http://www.w3school.com.cn/jquery/)
 * [amd](https://github.com/amdjs/amdjs-api/wiki/AMD)
 * [esl](https://github.com/ecomfe/esl)
-* [velocity](http://tool.oschina.net/apidocs/apidoc?api=velocity-1.7)
+* [velocity](http://www.cnblogs.com/codingsilence/archive/2011/03/29/2146580.html)
 * [artTemplate](https://github.com/aui/artTemplate)
 * [node](https://nodejs.org/en/)
 * [fis](http://fis.baidu.com/fis3/docs/beginning/intro.html)
