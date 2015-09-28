@@ -21,5 +21,9 @@
 	>   edp-build (1.0.14)
 
 * `idt ws start` 启动服务
+
 * `idt build` 发布资源
+
 * 详细请参考：[idt README](https://github.com/Lagou-Frontend/idt)
+
+### [回导航页](../README.md)
