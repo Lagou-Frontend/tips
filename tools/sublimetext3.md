@@ -23,9 +23,9 @@
 sublime包安装工具，安装方式：
 	* `view` -> `show console`
 	* 输入下方命令:
-		```
-		import urllib.request,os; pf = 'Package Control.sublime-package';ipp=sublime.installed_packages_path();urllib.request.install_opener(urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
-		```
+	```
+	import urllib.request,os; pf = 'PackageControl.sublime-package';ipp=sublime.installed_packages_path();urllib.request.install_opener(urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf),'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
+	```
 	* 等待安装完成即可
 * All Autocomplete<br />
 扩展了sublime只在当前文件进行搜索匹配的自动补全提示，会在所有打开的文件中搜索匹配自动补全提示
