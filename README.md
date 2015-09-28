@@ -10,11 +10,12 @@
 * [eclipse](./tools/macEclipseSetup.md)
 
 ## 环境
-* [idt](./tools/idt.md)
+* [idt](./env/idt.md)
 * [normae](https://github.com/Lagou-Frontend/normae)
 
 ## 技术
 * [less](http://less.bootcss.com)
+* [jQuery](http://www.w3school.com.cn/jquery/)
 * [amd](https://github.com/amdjs/amdjs-api/wiki/AMD)
 * [esl](https://github.com/ecomfe/esl)
 * [velocity](http://tool.oschina.net/apidocs/apidoc?api=velocity-1.7)
