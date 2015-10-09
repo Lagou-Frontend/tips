@@ -27,10 +27,13 @@ sublime包安装工具，安装方式：
 	import urllib.request,os; pf = 'PackageControl.sublime-package';ipp=sublime.installed_packages_path();urllib.request.install_opener(urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf),'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
 	```
 	* 等待安装完成即可
+
 * All Autocomplete<br />
 扩展了sublime只在当前文件进行搜索匹配的自动补全提示，会在所有打开的文件中搜索匹配自动补全提示
+
 * AutoFileName<br />
 自动补全提示文件名字
+
 * Clipboard Manager<br />
 可以查看剪贴板历史纪录，`Sublime Text` -> `Preferences` -> `Key Bindings - User`，添加以下配置
 
@@ -41,14 +44,22 @@ sublime包安装工具，安装方式：
 	{ "keys": ["super+shift+v"], "command": "clipboard_manager_choose_and_paste" }
 	```
 查看剪贴板历史纪录快捷键：`cmd` + `shift` + `v` 
+
+* Emmet<br />
+Sublime Zen Coding插件，建议安装，可以用来快速编写html/css，[具体用法](http://www.w3cplus.com/tools/emmet-cheat-sheet.html)。
+
 * HTML-CSS-JS Prettify<br />
 HTML/css/js/json格式化，快捷键：`cmd` ＋ `shift` + `h`
+
 * LESS<br />
 less文件代码高亮显示
+
 * Markdown Preview<br />
 markdown文件预览查看，编辑略卡，快捷键`cmd` ＋ `shift` + `p`调用命令行窗口后，输入preview查找相关命令
+
 * SideBarEnhancements<br />
-侧边栏增强工具，强烈建议安装，为侧边栏右键菜单增加剪贴，复制，粘贴，浏览器中打开等选项
+侧边栏增强工具，建议安装，为侧边栏右键菜单增加剪贴，复制，粘贴，浏览器中打开等选项
+
 * Terminal<br />
 终端快捷启动插件，快捷键：`cmd` ＋ `shift` + `t`，会在终端直接cd到当前文件的父文件夹
 
