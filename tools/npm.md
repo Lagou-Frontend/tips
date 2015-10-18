@@ -64,7 +64,7 @@
 	browserify --reuqire jquery > vendor.js
 	browserify main.js --exclude jquery > bundle.js
 	```
-* 对于不支持commonjs规范的模块可以通过[browerify-shim](browserify-shim)来处理，以jquery.colorbox.js为例
+* 对于不支持commonjs规范的模块可以通过[browserify-shim](https://github.com/thlorenz/browserify-shim)来处理，以jquery.colorbox.js为例
 	* 安装browserify-shim
 
     	```
