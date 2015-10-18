@@ -79,7 +79,7 @@
         },
         "browserify": {
             "transform": [ "browserify-shim" ]
-        }
+        },
         "browserify-shim": {
             "jquery.colorbox": { "depends": [ "jquery:jQuery" ] }
         },
