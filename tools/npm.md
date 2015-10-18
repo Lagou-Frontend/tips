@@ -81,7 +81,7 @@
         "transform": [ "browserify-shim" ]
     }
     "browserify-shim": {
-        "jquery.colorbox": { depends: [ "jquery:jQuery" ] }
+        "jquery.colorbox": { "depends": [ "jquery:jQuery" ] }
     },
     ```
     
