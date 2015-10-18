@@ -64,5 +64,32 @@
 	browserify --reuqire jquery > vendor.js
 	browserify main.js --exclude jquery > bundle.js
 	```
+* 对于不支持commonjs规范的模块可以通过browerify-shim来处理，以jquery.colorbox.js为例
+	* 安装browserify-shim
+
+	```
+    npm install browserify-shim --save-dev	
+	```
+	
+	* package.json中添加如下配置
+	
+    ```json
+    "browser": {
+        "jquery.colorbox": "./js/jquery.colorbox.js"
+    },
+    "browserify": {
+        "transform": [ "browserify-shim" ]
+    }
+    "browserify-shim": {
+        "jquery.colorbox": { [ depends: "jquery:jQuery" ] }
+    },
+    ```
+    
+    * js中如下使用
+    
+	```javascript
+	var $ = require('jquery');
+	require('jquery.colorbox');
+	```
 * browserify也提供了API，可以方便的在gulp中使用，具体可以查看[Gulp Recipes](https://github.com/gulpjs/gulp/tree/master/docs/recipes)，另外有一份正在翻译中的[browserify handbook](https://github.com/magicdawn/browserify-handbook)，也可以帮助大家尽快了解browserify
 	
