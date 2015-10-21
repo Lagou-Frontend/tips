@@ -123,17 +123,15 @@ eclipse商店安装即可
 
 修改文件`/tomcat/conf/server.xml`,添加需启动的主机配置。
 
-    ```xml
     <!--      <Host name="hr.lagou.com" appBase="_" unpackWARs="true" xmlValidation="false" xmlNamespaceAware="false">-->
     <!--          <Alias>hr.lagou.com</Alias>-->
     <!--          <Context path="/" docBase="D:\SVN\lagou_resume_manager\branches\lagou_plus\src\main\webapp" debug="0" reloadable="true"/>-->
     <!--      </Host>-->
-    
     <Host name="www.lagou.com" appBase="_" unpackWARs="true" xmlValidation="false" xmlNamespaceAware="false">
       <Alias>www.lagou.com</Alias>
       <Context path="/" docBase="/Users/harx/SVN/lagou/branches/lagou-new-search/src/main/webapp" debug="0" reloadable="true"/>
     </Host>
-    ```
+
 ##端口映射
 参考：[http://openwares.net/linux/mac_tomcat_port_80.html](http://openwares.net/linux/mac_tomcat_port_80.html)
 
