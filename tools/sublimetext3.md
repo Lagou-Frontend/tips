@@ -34,6 +34,9 @@ sublime包安装工具，安装方式：
 * AutoFileName<br />
 自动补全提示文件名字
 
+* Bufferscroll<br />
+保存折叠行
+
 * Clipboard Manager<br />
 可以查看剪贴板历史纪录，`Sublime Text` -> `Preferences` -> `Key Bindings - User`，添加以下配置
 
