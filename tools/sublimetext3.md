@@ -47,6 +47,11 @@ sublime包安装工具，安装方式：
 	{ "keys": ["super+shift+v"], "command": "clipboard_manager_choose_and_paste" }
 	```
 查看剪贴板历史纪录快捷键：`cmd` + `shift` + `v` 
+* CSScomb<br />
+格式化css样式；选中css样式右键选中csscomb即可，还能在usersetting中自定义css格式化规则！
+
+* compare side-by-side <br />
+文件对比，打开要对比的文件，在title处单击右键选择对比即可
 
 * Emmet<br />
 Sublime Zen Coding插件，建议安装，可以用来快速编写html/css，[具体用法](http://www.w3cplus.com/tools/emmet-cheat-sheet.html)。
