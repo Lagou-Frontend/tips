@@ -79,7 +79,7 @@ markdown文件预览查看，编辑略卡，快捷键`cmd` ＋ `shift` + `p`调�
 我们可以在浏览器的console里运行js，也可以在node的REPL里运行js，但是都不是很方便，其实在sublime里也是可以直接运行js的，能够很方便的帮助我们测试javascript api以及验证正则。<br />
 下面介绍三种在sublime里运行js的方法
 
-### JSC
+#### JSC
 JSC为Mac内置的javascript控制台程序。
 
 1. Tools > Build System > New Build System
@@ -93,13 +93,13 @@ JSC为Mac内置的javascript控制台程序。
 	```
 3. 保存为`JSC.sublime-build`
 4. Tools > Build System，选择刚才创建的`JSC`
-5. 打开js文件，`cmd` + `b`
+5. 打开js文件，`cmd` + `b`<br />
 ![](http://netsh.qiniudn.com/wp-content/uploads/2014/07/sublime-javascript-console-500x297.png
 )
 
 注意用`debug()`替换`console.log()`，可支持到es5。
 
-### Node
+#### Node
 首先确保已安装node
 
 1. Tools > Build System > New Build System
@@ -130,7 +130,7 @@ JSC为Mac内置的javascript控制台程序。
 
 对es6的支持情况视node版本而定。
 
-### Babal
+#### Babal
 首先确保已安装node
 
 1. `npm install babel-cli -g`全局安装babel命令行模块
