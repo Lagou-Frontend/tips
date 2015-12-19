@@ -35,7 +35,7 @@ sublime包安装工具，安装方式：
 自动补全提示文件名字
 
 * Babel<br />
-es6语法高亮插件，具体设置参考[这里](https://github.com/babel/babel-sublime)，可配合[Oceanic Next Color Scheme]https://github.com/voronianski/oceanic-next-color-scheme主题。
+es6语法高亮插件，具体设置参考[这里](https://github.com/babel/babel-sublime)，可配合[Oceanic Next Color Scheme](https://github.com/voronianski/oceanic-next-color-scheme)主题。
 
 * Bufferscroll<br />
 保存折叠行
