@@ -34,6 +34,9 @@ sublime包安装工具，安装方式：
 * AutoFileName<br />
 自动补全提示文件名字
 
+* Babel<br />
+es6语法高亮插件，具体设置参考[这里](https://github.com/babel/babel-sublime)，可配合[Oceanic Next Color Scheme]https://github.com/voronianski/oceanic-next-color-scheme主题。
+
 * Bufferscroll<br />
 保存折叠行
 
@@ -47,6 +50,7 @@ sublime包安装工具，安装方式：
 	{ "keys": ["super+shift+v"], "command": "clipboard_manager_choose_and_paste" }
 	```
 查看剪贴板历史纪录快捷键：`cmd` + `shift` + `v` 
+
 * CSScomb<br />
 格式化css样式；选中css样式右键选中csscomb即可，还能在usersetting中自定义css格式化规则！
 
