@@ -30,6 +30,11 @@
     nvm alias default 0.12.7
     nvm alias stable default
     ```
+* 查看node安装路径
+
+    ```
+    which node
+    ```
 
 ## Windows
 
