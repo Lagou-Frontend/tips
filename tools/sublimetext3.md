@@ -75,8 +75,92 @@ markdown文件预览查看，编辑略卡，快捷键`cmd` ＋ `shift` + `p`调�
 * Terminal<br />
 终端快捷启动插件，快捷键：`cmd` ＋ `shift` + `t`，会在终端直接cd到当前文件的父文件夹
 
+## 在sublime中运行js
+我们可以在浏览器的console里运行js，也可以在node的REPL里运行js，但是都不是很方便，其实在sublime里也是可以直接运行js的，能够很方便的帮助我们测试javascript api以及验证正则。<br />
+下面介绍三种在sublime里运行js的方法
+
+### JSC
+JSC为Mac内置的javascript控制台程序。
+
+1. Tools > Build System > New Build System
+2. 在打开的文件中添加如下代码
+
+	``` javascript
+	{
+		"cmd": ["/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Resources/jsc", "$file"],
+		"selector": "source.js"
+	}
+	```
+3. 保存为`JSC.sublime-build`
+4. Tools > Build System，选择刚才创建的`JSC`
+5. 打开js文件，`cmd` + `b`
+![](http://netsh.qiniudn.com/wp-content/uploads/2014/07/sublime-javascript-console-500x297.png
+)
+
+注意用`debug()`替换`console.log()`，可支持到es5。
+
+### Node
+首先确保已安装node
+
+1. Tools > Build System > New Build System
+2. 在打开的文件中添加如下代码
+
+	``` javascript
+	{
+	    "path": "/Users/wangjinliang/.nvm/versions/node/v4.2.3/bin",
+	    "working_dir": "${project_path:${folder}}",
+	    "selector": "source.js",
+	    "encoding": "utf-8",
+	    "shell": true,
+	    "windows": {
+	        "cmd": ["taskkill /f /im node.exe >nul 2>nul & node $file"]
+	    },
+	    "osx": {
+	        "cmd": ["killall node >/dev/null 2>&1; node $file"]
+	    },
+	    "linux": {
+	        "cmd": ["killall node >/dev/null 2>&1; node $file"]
+	    }
+	}
+	```
+3. 通过`which node`获取node的安装目录，添加到对应的path属性上
+4. 保存为`node.sublime-build`
+5. Tools > Build System，选择刚才创建的`node`
+6. 打开js文件，`cmd` + `b`
+
+对es6的支持情况视node版本而定。
+
+### Babal
+首先确保已安装node
+
+1. `npm install babel-cli -g`全局安装babel命令行模块
+2. Tools > Build System > New Build System
+3. 在打开的文件中添加如下代码
+
+	``` javascript
+	{
+	    "path": "/Users/wangjinliang/.nvm/versions/node/v4.2.3/bin",
+	    "working_dir": "${project_path:${folder}}",
+	    "selector": "source.js",
+	    "encoding": "utf-8",
+	    "shell": true,
+	    "windows": {
+	        "cmd": ["taskkill /f /im node.exe >nul 2>nul & babel-node $file"]
+	    },
+	    "osx": {
+	        "cmd": ["killall node >/dev/null 2>&1; babel-node $file"]
+	    },
+	    "linux": {
+	        "cmd": ["killall node >/dev/null 2>&1; babel-node $file"]
+	    }
+	}
+	```
+4. 通过`which node`获取node的安装目录，添加到对应的path属性上
+5. 保存为`babel.sublime-build`
+6. Tools > Build System，选择刚才创建的`babel`
+7. 打开js文件，`cmd` + `b`
+
+全面支持es6，以及部分es7，相比第二种直接通过node运行略慢
+
 
 ### [回导航页](../README.md)
-
-
-
