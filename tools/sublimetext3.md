@@ -69,6 +69,9 @@ less文件代码高亮显示
 * Markdown Preview<br />
 markdown文件预览查看，编辑略卡，快捷键`cmd` ＋ `shift` + `p`调用命令行窗口后，输入preview查找相关命令
 
+* Nodejs<br />
+Nodejs API 自动补全
+
 * SideBarEnhancements<br />
 侧边栏增强工具，建议安装，为侧边栏右键菜单增加剪贴，复制，粘贴，浏览器中打开等选项
 
