@@ -60,7 +60,7 @@ es6语法高亮插件，具体设置参考[这里](https://github.com/babel/babe
 * Emmet<br />
 Sublime Zen Coding插件，建议安装，可以用来快速编写html/css，[具体用法](http://www.w3cplus.com/tools/emmet-cheat-sheet.html)。
 
-* javascript completion
+* javascript completion<br />
 javascript api自动补全插件，它相比SublimeCodeIntel的优势是
 	1. 轻量，只是用来补全javascript api
 	2. 支持es5语法
@@ -173,6 +173,6 @@ JSC为Mac内置的javascript控制台程序。
 全面支持es6，以及部分es7，相比第二种直接通过node运行略慢
 
 #### Babal 6.x
-与bable5.x有一些区别，请参考[这里](http://fedvic.com/2015/12/24/es6InSublime/)
+与bable5.x有一些区别，请参考[这里](http://fedvic.com/2015/12/24/es6InSublime/)。
 
 ### [回导航页](../README.md)
