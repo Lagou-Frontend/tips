@@ -104,7 +104,7 @@ Nodejs API 自动补全
 Google Material风格主题，同时支持Oceanic Next Color Scheme color theme，不同文件类型会有相应的精美icon。
 
 * [Spacegray](https://github.com/kkga/spacegray)<br />
-简约扁平看起来配色很舒服的主题。
+简约扁平配色看起来很舒服的主题。
 
 ## 在sublime中运行js
 我们可以在浏览器的console里运行js，也可以在node的REPL里运行js，但是都不是很方便，其实在sublime里也是可以直接运行js的，能够很方便的帮助我们测试javascript api以及验证正则。<br />
