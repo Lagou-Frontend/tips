@@ -7,6 +7,7 @@
 * [npm](./tools/npm.md)
 * [nrm](./tools/nrm.md)
 * [Sublime Text 3](./tools/sublimetext3.md)
+* [Chrome Extension](./tools/chrome-extension.md)
 * [eclipse](./tools/macEclipseSetup.md)
 
 ## 环境
