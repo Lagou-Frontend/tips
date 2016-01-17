@@ -9,13 +9,13 @@
 用来模拟包括get/post/put/delete等各种http请求的扩展，可用来非常方便的测试API接口，并且支持将请求分组记录在Collection中保存以及导入导出。
 
 ### [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop)
-是Postman - REST Client shortcut的WebApp版本，界面更好看，但是据我测试不能像前者一样和浏览器共享cookie。
+是Postman - REST Client shortcut的WebApp版本，界面更好看，但是需要注册账号，而且据我测试不能像扩展版本一样和浏览器共享cookie。
 
 ### [Dimensions](https://chrome.google.com/webstore/detail/dimensions/baocaagndhipibgklemoalmkljaimfdj)
 用来测量元素尺寸边距的扩展，我就不说我以前是用QQ截图来量的了...
 
 ### [JavaScript Errors Notifier](https://chrome.google.com/webstore/detail/javascript-errors-notifie/jafmfknfnkoekkdocjiaipcnmkklaajd)
-页面脚本报错时，这个扩展会在浏览器地址栏右侧给出红色感叹号的提示，这样不用打开console也能知道页面脚本是否报错了。
+页面脚本报错时，这个扩展会在浏览器地址栏右侧给出红色感叹号的提示，这样不用打开console也能知道页面脚本报错了。
 
 ### [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc?hl=zh-CN)
 这个扩展可以将Github上的项目结构按照树形展示出来，并且可以很方便的进行跳转预览以及下载。
@@ -29,7 +29,7 @@
 ## 日常使用相关
 
 ### [One Tab](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall)
-由于Chrome浏览器每一个Tab对象一个进程，非常占用内存，这个插件可以让所有Tab都通过一个进程打开，大大降低了Chrome的内存占用情况，本人乞丐版macbookpro表示看到这个扩展感动的想哭会。
+由于Chrome浏览器每一个Tab对应一个进程，非常占用内存，这个插件可以让所有Tab都通过一个进程打开，大大降低了Chrome的内存占用情况，本人乞丐版macbookpro表示看到这个扩展感动的想哭。
 
 ### [Ad Block](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom)
 屏蔽广告的扩展，不多说了。
