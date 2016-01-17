@@ -1,5 +1,5 @@
 # Sublime Text 3
-	
+
 ## 安装
 
 进入[下载地址](http://www.sublimetext.com/3)选择相应版本下载，正常安装即可。
@@ -21,12 +21,12 @@
 
 * Package Control<br/>
 sublime包安装工具，安装方式：
-	* `view` -> `show console`
-	* 输入下方命令:
-	```
-	import urllib.request,os; pf = 'PackageControl.sublime-package';ipp=sublime.installed_packages_path();urllib.request.install_opener(urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf),'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
-	```
-	* 等待安装完成即可
+    * `view` -> `show console`
+    * 输入下方命令:
+    ```
+    import urllib.request,os; pf = 'PackageControl.sublime-package';ipp=sublime.installed_packages_path();urllib.request.install_opener(urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf),'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
+    ```
+    * 等待安装完成即可
 
 * All Autocomplete<br />
 扩展了sublime只在当前文件进行搜索匹配的自动补全提示，会在所有打开的文件中搜索匹配自动补全提示
@@ -43,13 +43,16 @@ es6语法高亮插件，具体设置参考[这里](https://github.com/babel/babe
 * Clipboard Manager<br />
 可以查看剪贴板历史纪录，`Sublime Text` -> `Preferences` -> `Key Bindings - User`，添加以下配置
 
-	```json
-	{ "keys": ["super+c"], "command": "clipboard_manager_copy" },
-	{ "keys": ["super+x"], "command": "clipboard_manager_cut" },
-	{ "keys": ["super+v"], "command": "paste_and_indent" },
-	{ "keys": ["super+shift+v"], "command": "clipboard_manager_choose_and_paste" }
-	```
-查看剪贴板历史纪录快捷键：`cmd` + `shift` + `v` 
+    ```json
+    { "keys": ["super+c"], "command": "clipboard_manager_copy" },
+    { "keys": ["super+x"], "command": "clipboard_manager_cut" },
+    { "keys": ["super+v"], "command": "paste_and_indent" },
+    { "keys": ["super+shift+v"], "command": "clipboard_manager_choose_and_paste" }
+    ```
+查看剪贴板历史纪录快捷键：`cmd` + `shift` + `v`
+
+* CSS3<br />
+更好的CSS3语法高亮支持。
 
 * CSScomb<br />
 格式化css样式；选中css样式右键选中csscomb即可，还能在usersetting中自定义css格式化规则！
@@ -62,16 +65,22 @@ Sublime Zen Coding插件，建议安装，可以用来快速编写html/css，[�
 
 * javascript completion<br />
 javascript api自动补全插件，它相比SublimeCodeIntel的优势是
-	1. 轻量，只是用来补全javascript api
-	2. 支持es5语法
-	3. 有参数提示
-	4. 自动纠错
+    1. 轻量，只是用来补全javascript api
+    2. 支持es5语法
+    3. 有参数提示
+    4. 自动纠错
+
+* Java​Script & Node​JS Snippets<br />
+js代码片段，快捷输入请参考[这里](https://packagecontrol.io/packages/JavaScript%20%26%20NodeJS%20Snippets)。
 
 * HTML-CSS-JS Prettify<br />
 HTML/css/js/json格式化，快捷键：`cmd` ＋ `shift` + `h`
 
 * LESS<br />
 less文件代码高亮显示
+
+* Markdown Extend<br />
+markdown文件高亮扩展，文件中的代码块也会相应高亮。
 
 * Markdown Preview<br />
 markdown文件预览查看，编辑略卡，快捷键`cmd` ＋ `shift` + `p`调用命令行窗口后，输入preview查找相关命令
@@ -85,6 +94,18 @@ Nodejs API 自动补全
 * Terminal<br />
 终端快捷启动插件，快捷键：`cmd` ＋ `shift` + `t`，会在终端直接cd到当前文件的父文件夹
 
+## 主题
+可以到[colorsublime](http://www.colorsublime.com/)里查找自己喜欢的主题。下面推荐一些有特色的主题：
+
+* [Oceanic Next Color Scheme](https://github.com/voronianski/oceanic-next-color-scheme)<br />
+支持es6/react语法高亮，需要先安装[babel-sublime](https://github.com/babel/babel-sublime)语法高亮插件。
+
+* [Material Theme for Sublime Text 3](https://github.com/equinusocio/material-theme)<br />
+Google Material风格主题，同时支持Oceanic Next Color Scheme color theme，不同文件类型会有相应的精美icon。
+
+* [Spacegray](https://github.com/kkga/spacegray)<br />
+简约扁平看起来配色很舒服的主题。
+
 ## 在sublime中运行js
 我们可以在浏览器的console里运行js，也可以在node的REPL里运行js，但是都不是很方便，其实在sublime里也是可以直接运行js的，能够很方便的帮助我们测试javascript api以及验证正则。<br />
 下面介绍三种在sublime里运行js的方法
@@ -95,12 +116,12 @@ JSC为Mac内置的javascript控制台程序。
 1. Tools > Build System > New Build System
 2. 在打开的文件中添加如下代码
 
-	``` javascript
-	{
-		"cmd": ["/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Resources/jsc", "$file"],
-		"selector": "source.js"
-	}
-	```
+    ``` javascript
+    {
+        "cmd": ["/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Resources/jsc", "$file"],
+        "selector": "source.js"
+    }
+    ```
 3. 保存为`JSC.sublime-build`
 4. Tools > Build System，选择刚才创建的`JSC`
 5. 打开js文件，`cmd` + `b`<br />
@@ -115,24 +136,24 @@ JSC为Mac内置的javascript控制台程序。
 1. Tools > Build System > New Build System
 2. 在打开的文件中添加如下代码
 
-	``` javascript
-	{
-	    "path": "/Users/wangjinliang/.nvm/versions/node/v4.2.3/bin",
-	    "working_dir": "${project_path:${folder}}",
-	    "selector": "source.js",
-	    "encoding": "utf-8",
-	    "shell": true,
-	    "windows": {
-	        "cmd": ["taskkill /f /im node.exe >nul 2>nul & node $file"]
-	    },
-	    "osx": {
-	        "cmd": ["killall node >/dev/null 2>&1; node $file"]
-	    },
-	    "linux": {
-	        "cmd": ["killall node >/dev/null 2>&1; node $file"]
-	    }
-	}
-	```
+    ``` javascript
+    {
+        "path": "/Users/wangjinliang/.nvm/versions/node/v4.2.3/bin",
+        "working_dir": "${project_path:${folder}}",
+        "selector": "source.js",
+        "encoding": "utf-8",
+        "shell": true,
+        "windows": {
+            "cmd": ["taskkill /f /im node.exe >nul 2>nul & node $file"]
+        },
+        "osx": {
+            "cmd": ["killall node >/dev/null 2>&1; node $file"]
+        },
+        "linux": {
+            "cmd": ["killall node >/dev/null 2>&1; node $file"]
+        }
+    }
+    ```
 3. 通过`which node`获取node的安装目录，添加到对应的path属性上
 4. 保存为`node.sublime-build`
 5. Tools > Build System，选择刚才创建的`node`
@@ -147,24 +168,24 @@ JSC为Mac内置的javascript控制台程序。
 2. Tools > Build System > New Build System
 3. 在打开的文件中添加如下代码
 
-	``` javascript
-	{
-	    "path": "/Users/wangjinliang/.nvm/versions/node/v4.2.3/bin",
-	    "working_dir": "${project_path:${folder}}",
-	    "selector": "source.js",
-	    "encoding": "utf-8",
-	    "shell": true,
-	    "windows": {
-	        "cmd": ["taskkill /f /im node.exe >nul 2>nul & babel-node $file"]
-	    },
-	    "osx": {
-	        "cmd": ["killall node >/dev/null 2>&1; babel-node $file"]
-	    },
-	    "linux": {
-	        "cmd": ["killall node >/dev/null 2>&1; babel-node $file"]
-	    }
-	}
-	```
+    ``` javascript
+    {
+        "path": "/Users/wangjinliang/.nvm/versions/node/v4.2.3/bin",
+        "working_dir": "${project_path:${folder}}",
+        "selector": "source.js",
+        "encoding": "utf-8",
+        "shell": true,
+        "windows": {
+            "cmd": ["taskkill /f /im node.exe >nul 2>nul & babel-node $file"]
+        },
+        "osx": {
+            "cmd": ["killall node >/dev/null 2>&1; babel-node $file"]
+        },
+        "linux": {
+            "cmd": ["killall node >/dev/null 2>&1; babel-node $file"]
+        }
+    }
+    ```
 4. 通过`which node`获取node的安装目录，添加到对应的path属性上
 5. 保存为`babel.sublime-build`
 6. Tools > Build System，选择刚才创建的`babel`
