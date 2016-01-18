@@ -33,7 +33,8 @@ sublime包安装工具，安装方式：
 
 * AutoFileName<br />
 自动补全提示文件名字
-
+* DocBlockr<br />
+像java等语言的块注释，使用方法，/** Tab就ok
 * Babel<br />
 es6语法高亮插件，具体设置参考[这里](https://github.com/babel/babel-sublime)，可配合[Oceanic Next Color Scheme](https://github.com/voronianski/oceanic-next-color-scheme)主题。
 
