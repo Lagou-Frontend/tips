@@ -33,8 +33,7 @@ sublime包安装工具，安装方式：
 
 * AutoFileName<br />
 自动补全提示文件名字
-* DocBlockr<br />
-像java等语言的块注释，使用方法，/** Tab就ok
+
 * Babel<br />
 es6语法高亮插件，具体设置参考[这里](https://github.com/babel/babel-sublime)，可配合[Oceanic Next Color Scheme](https://github.com/voronianski/oceanic-next-color-scheme)主题。
 
@@ -60,6 +59,9 @@ es6语法高亮插件，具体设置参考[这里](https://github.com/babel/babe
 
 * compare side-by-side <br />
 文件对比，打开要对比的文件，在title处单击右键选择对比即可
+
+* DocBlockr<br />
+像java等语言的块注释，使用方法，`/**`Tab就ok
 
 * Emmet<br />
 Sublime Zen Coding插件，建议安装，可以用来快速编写html/css，[具体用法](http://www.w3cplus.com/tools/emmet-cheat-sheet.html)。
@@ -91,6 +93,12 @@ Nodejs API 自动补全
 
 * SideBarEnhancements<br />
 侧边栏增强工具，建议安装，为侧边栏右键菜单增加剪贴，复制，粘贴，浏览器中打开等选项
+
+* SublimeLinter<br />
+Sublime代码检查工具。
+
+* SublimeLinter-eslint<br />
+SublimeLinter的ESLint插件，javascript代码质量检查工具对比可以参考[这里](http://efe.baidu.com/blog/js-lints/)，如何使用这个插件可以参考[这里](http://jonathancreamer.com/setup-eslint-with-es6-in-sublime-text/?utm_source=tuicool&utm_medium=referral)，ESLint的Rules可以查阅[官网](http://eslint.org/docs/rules/)。
 
 * Terminal<br />
 终端快捷启动插件，快捷键：`cmd` ＋ `shift` + `t`，会在终端直接cd到当前文件的父文件夹
