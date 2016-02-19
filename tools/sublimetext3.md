@@ -100,6 +100,9 @@ Sublime代码检查工具。
 * SublimeLinter-eslint<br />
 SublimeLinter的ESLint插件，javascript代码质量检查工具对比可以参考[这里](http://efe.baidu.com/blog/js-lints/)，如何使用这个插件可以参考[这里](http://jonathancreamer.com/setup-eslint-with-es6-in-sublime-text/?utm_source=tuicool&utm_medium=referral)，ESLint的Rules可以查阅[官网](http://eslint.org/docs/rules/)。
 
+* SublimeTmpl<br />
+Sublime新建文件模板插件，支持快捷键新建，修改内置模板，增加自定义模版，具体可以参考[这里](http://www.fantxi.com/blog/archives/sublime-template-engine-sublimetmpl/)。
+
 * Terminal<br />
 终端快捷启动插件，快捷键：`cmd` ＋ `shift` + `t`，会在终端直接cd到当前文件的父文件夹
 
