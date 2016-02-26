@@ -63,6 +63,9 @@ es6语法高亮插件，具体设置参考[这里](https://github.com/babel/babe
 * DocBlockr<br />
 像java等语言的块注释，使用方法，`/**`Tab就ok
 
+* EditorConfig<br />
+跨编辑器代码静态风格配置sublime插件，配置说明请参考[这里](http://editorconfig.org/)。
+
 * Emmet<br />
 Sublime Zen Coding插件，建议安装，可以用来快速编写html/css，[具体用法](http://www.w3cplus.com/tools/emmet-cheat-sheet.html)。
 
