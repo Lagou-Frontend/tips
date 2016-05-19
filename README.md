@@ -8,7 +8,6 @@
 * [nrm](./tools/nrm.md)
 * [Sublime Text 3](./tools/sublimetext3.md)
 * [Chrome Extension](./tools/chrome-extension.md)
-* [eclipse](./tools/macEclipseSetup.md) (按需安装)
 
 ## 环境
 * [idt](./env/idt.md) (已停止维护)
