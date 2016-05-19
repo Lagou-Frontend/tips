@@ -11,7 +11,7 @@
 * [eclipse](./tools/macEclipseSetup.md)
 
 ## 环境
-* [idt](./env/idt.md)
+* [idt](./env/idt.md) (已停止维护)
 * [normae](https://github.com/Lagou-Frontend/normae)
 
 ## 技术
