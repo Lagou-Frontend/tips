@@ -1,7 +1,7 @@
 # Lagou-FE TEAM Tips
 
 ## 工具
-* [Total Terminal](./tools/TotalTerminal.md)
+* [Total Terminal](./tools/TotalTerminal.md)(可根据自己习惯选择安装)
 * [oh-my-zsh](./tools/oh-my-zsh.md)
 * [nvm](./tools/nvm.md)
 * [npm](./tools/npm.md)
