@@ -10,7 +10,7 @@
 * [Chrome Extension](./tools/chrome-extension.md)
 
 ## 环境
-* [idt](./env/idt.md) (已停止维护)
+* [idt](./env/idt.md) (已停止维护，可跳过)
 * [normae](https://github.com/Lagou-Frontend/normae)
 
 ## 技术
