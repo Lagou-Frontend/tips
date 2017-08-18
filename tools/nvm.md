@@ -7,7 +7,7 @@
 * 安装nvm
 
     ```
-    curl https://raw.githubusercontent.com/creationix/nvm/v0.24.0/install.sh | bash
+    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
     ```
 * 添加全局命令，在 `~/.zshrc`中，添加 `source ~/.nvm/nvm.sh`
 
@@ -17,6 +17,7 @@
 * 安装node
 
     ```
+    nvm install v4.8.4
     nvm install v0.12.7
     ```
 * 测试node是否安装成功
@@ -27,7 +28,7 @@
 * 设置nvm默认node版本
 
     ```
-    nvm alias default 0.12.7
+    nvm alias default 4.8.4
     nvm alias stable default
     ```
 * 查看node安装路径
