@@ -1,6 +1,6 @@
 # Lagou-FE TEAM Tips
 
-## 工具
+## IDE
 * [Total Terminal](./tools/TotalTerminal.md)(可根据自己习惯选择安装)
 * [oh-my-zsh](./tools/oh-my-zsh.md)
 * [nvm](./tools/nvm.md)
@@ -10,9 +10,10 @@
 * [VS Code](https://code.visualstudio.com/)
 * [Chrome Extension](./tools/chrome-extension.md)
 
-## 环境
+## 构建工具
 * [idt](./env/idt.md) (已停止维护，可跳过)
 * [normae](https://github.com/Lagou-Frontend/normae)
+* [webpack](https://doc.webpack-china.org/)
 
 ## 技术
 * [less](http://less.bootcss.com)
